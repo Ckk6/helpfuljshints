@@ -46,5 +46,5 @@ app.listen(port, function(){
 
 //homepage or root (html)
 app.get('/', function(req,res){
-	res.send(index.html);
+	res.send('index.html');
 });
